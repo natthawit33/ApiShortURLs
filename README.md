@@ -38,7 +38,7 @@ This project is a web application with an API backend built using Laravel. It al
         php artisan serve
 
 ## API
-   # The API is part of the same Laravel application. No additional setup is required for the API beyond the steps listed above.
+    The API is part of the same Laravel application. No additional setup is required for the API beyond the steps listed above.
 
 API Endpoints:
 
