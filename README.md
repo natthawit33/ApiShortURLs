@@ -21,24 +21,24 @@ This project is a web application with an API backend built using Laravel. It al
 
 ### Web Application
 
-1. Clone the repository
+# 1. Clone the repository
    ```bash
    git clone https://github.com/your-username/my-project.git
-2.Install Composer dependencies:
+# 2.Install Composer dependencies:
     cd my-project
     composer install
-3.Set up your .env file  Copy the .env.example file to .env
+# 3.Set up your .env file  Copy the .env.example file to .env
     cp .env.example .env
-4.Generate the application key
+# 4.Generate the application key
     php artisan key:generate
     **Configure API Endpoint: Update the .env file with the URL to your API server:  API_URL=http://127.0.0.1:8000/api/
-5.Run migrations (API)
+# 5.Run migrations (API)
     php artisan migrate
-6.Start the Laravel development server
+# 6.Start the Laravel development server
     php artisan serve
 
 ## API
-    The API is part of the same Laravel application. No additional setup is required for the API beyond the steps listed above.
+   # The API is part of the same Laravel application. No additional setup is required for the API beyond the steps listed above.
 
 API Endpoints:
 
